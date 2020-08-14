@@ -112,8 +112,8 @@ body {
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
       position: absolute;
+      content: '';
       top: 0;
       right: 0;
       width: 100%;
