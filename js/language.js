@@ -23,7 +23,8 @@ const outputTxt = {
         contactMeDetails: "These are the means on how you can reach me...",
         email: "<span class='text-secondary'>Email: </span> kennethreyt@gmail.com",
         phone: "<span class='text-secondary'>Phone: </span> +63 966 356 8932",
-        address: "<span class='text-secondary'>Address: </span> 46C Salvador Ext. Brgy. Labangon, Cebu City, Philippines",
+        address: "<span class='text-secondary'>Address: </span> 46C Salvador Ext. Brgy. Labangon, Cebu City, Philippines, 6000",
+        links: "Links:",
         home: "Home",
         about: "About Me",
         myWorks: "My Works",
@@ -58,7 +59,8 @@ const outputTxt = {
         contactMeDetails: "これらはあなたが私に到達する方法の手段です",
         email: "<span class='text-secondary'>Eメール: </span> kennethreyt@gmail.com",
         phone: "<span class='text-secondary'>電話番号: </span> +63 966 356 8932",
-        address: "<span class='text-secondary'>住所: </span> 46C Salvador Ext. Brgy. Labangon, Cebu City, Philippines",
+        address: "<span class='text-secondary'>住所: </span> 46C Salvador Ext. Brgy. Labangon, Cebu City, Philippines, 6000",
+        links: "リンク:",
         home: "ホームページ",
         about: "私について",
         myWorks: "私のプロジェクト",
@@ -114,6 +116,7 @@ $("#contactMeDetails").text(txt.contactMeDetails);
 $("#email").html(txt.email);
 $("#phone").html(txt.phone);
 $("#address").html(txt.address);
+$("#links").text(txt.links);
 $("#home").text(txt.home);
 $("#about").text(txt.about);
 $("#contact").text(txt.contact);

@@ -157,7 +157,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #ff7b00;
+        color:#515151;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -217,7 +217,7 @@ main {
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
+      padding: 0.5rem 2rem;
       background: #ff7b00;
       color: #000; }
       .boxes div:hover span {
@@ -250,12 +250,13 @@ main {
 #language {
   overflow: hidden;
   margin: 0;
+  padding-inline-start: 0px;
 }
 
 #language li{
   display:inline;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding: 5px;
+  /* padding-right: 5px; */
   cursor: pointer;
 }
 
