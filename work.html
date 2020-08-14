@@ -27,41 +27,29 @@
       </div>
       <ul class="menu-nav">
         <li class="nav-item">
-          <a href="/" class="nav-link">
-            Home
-          </a>
+          <a href="/" class="nav-link" id="home"></a>
         </li>
         <li class="nav-item">
-          <a href="/about" class="nav-link">
-            About Me
-          </a>
+          <a href="/about" class="nav-link" id="about"></a>
+        </li>
+        <li class="nav-item">
+          <a href="/work" class="nav-link" id="myWorks"></a>
         </li>
         <li class="nav-item current">
-          <a href="/work" class="nav-link">
-            My Works
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="/contact" class="nav-link">
-            How To Reach Me
-          </a>
+          <a href="/contact " class="nav-link" id="contact"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="docs/RESUME (KENNETH REY B TAMIS).pdf" download="RESUME (KENNETH REY B TAMIS)"
-            target="_blank">Download
-            Resume</a>
+            id="download" target="_blank"></a>
         </li>
       </ul>
     </nav>
   </header>
 
   <main id="work">
-    <h1 class="lg-heading">
-      My
-      <span class="text-secondary">Works</span>
+    <h1 class="lg-heading" id="myWorks">
     </h1>
-    <h2 class="sm-heading">
-      Check out some of my projects...
+    <h2 class="sm-heading" id="myWorkDetails">
     </h2>
     <div class="projects">
       <div class="item">
@@ -77,8 +65,7 @@
         <a target="blank" href="https://eeconstructioncompany.com/">
           <img src="img/projects/project7.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://eeconstructioncompany.com/" class="btn-light">
-          <i class="fas fa-eye"></i> E&E Construction Company Website
+        <a target="blank" href="https://eeconstructioncompany.com/" class="btn-light" id="ee">
         </a>
       </div>
 
@@ -86,8 +73,7 @@
         <a target="blank" href="https://teknolikha.com/">
           <img src="img/projects/project8.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://teknolikha.com/" class="btn-light">
-          <i class="fas fa-eye"></i> Teknolikha Website
+        <a target="blank" href="https://teknolikha.com/" class="btn-light" id="teknolikha">
         </a>
       </div>
 
@@ -95,8 +81,7 @@
         <a target="blank" href="https://e-rx.herokuapp.com/">
           <img src="img/projects/project1.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://e-rx.herokuapp.com/" class="btn-light">
-          <i class="fas fa-eye"></i> Electronic Prescription
+        <a target="blank" href="https://e-rx.herokuapp.com/" class="btn-light" id="epres">
         </a>
         <a target="blank" href="https://github.com/iamkennethreyt/ePrescription" class="btn-dark">
           <i class="fab fa-github"></i> Github
@@ -106,8 +91,7 @@
         <a target="blank" href="https://hanaph.herokuapp.com/">
           <img src="img/projects/project2.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://hanaph.herokuapp.com/" class="btn-light">
-          <i class="fas fa-eye"></i> HanaPh (Job Searching App)
+        <a target="blank" href="https://hanaph.herokuapp.com/" class="btn-light" id="hanaph">
         </a>
         <a target="blank" href="https://github.com/iamkennethreyt/hanaph" class="btn-dark">
           <i class="fab fa-github"></i> Github
@@ -130,8 +114,7 @@
         <a target="blank" href="https://merrncrud.herokuapp.com/">
           <img src="img/projects/project3.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://merrncrud.herokuapp.com/" class="btn-light">
-          <i class="fas fa-eye"></i> CRUD App using Node and React
+        <a target="blank" href="https://merrncrud.herokuapp.com/" class="btn-light" id="crud">
         </a>
         <a target="blank" href="https://github.com/iamkennethreyt/MERN-CRUD" class="btn-dark">
           <i class="fab fa-github"></i> Github
@@ -142,8 +125,7 @@
         <a target="blank" href="https://mern-login.herokuapp.com/">
           <img src="img/projects/project6.jpg" alt="Project" />
         </a>
-        <a target="blank" href="https://mern-login.herokuapp.com/" class="btn-light">
-          <i class="fas fa-eye"></i> Login App using Node and React
+        <a target="blank" href="https://mern-login.herokuapp.com/" class="btn-light" id="crud">
         </a>
         <a target="blank" href="https://github.com/iamkennethreyt/loginapp" class="btn-dark">
           <i class="fab fa-github"></i> Github
@@ -153,10 +135,19 @@
   </main>
 
   <footer id="main-footer">
-    Copyright &copy; 2020
+    <ul id="language">
+      <li id="lang-en">
+        English
+      </li>
+      <li id="lang-jp">
+        日本語
+      </li>
+    </ul>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/language.js"></script>
 </body>
 
 </html>

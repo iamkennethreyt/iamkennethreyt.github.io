@@ -27,59 +27,51 @@
       </div>
       <ul class="menu-nav">
         <li class="nav-item">
-          <a href="/" class="nav-link">
-            Home
-          </a>
+          <a href="/" class="nav-link" id="home"></a>
         </li>
         <li class="nav-item">
-          <a href="/about" class="nav-link">
-            About Me
-          </a>
+          <a href="/about" class="nav-link" id="about"></a>
         </li>
         <li class="nav-item">
-          <a href="/work" class="nav-link">
-            My Works
-          </a>
+          <a href="/work" class="nav-link" id="myWorks"></a>
         </li>
         <li class="nav-item current">
-          <a href="/contact " class="nav-link">
-            How To Reach Me
-          </a>
+          <a href="/contact " class="nav-link" id="contact"></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="docs/RESUME (KENNETH REY B TAMIS).pdf" download="RESUME (KENNETH REY B TAMIS)"
-            target="_blank">Download
-            Resume</a>
+            id="download" target="_blank"></a>
         </li>
       </ul>
     </nav>
   </header>
 
   <main id="contact">
-    <h1 class="lg-heading">
-      Contact
-      <span class="text-secondary">Me</span>
+    <h1 class="lg-heading" id="contactMe">
     </h1>
-    <h2 class="sm-heading">
-      These are the means on how you can reach me...
+    <h2 class="sm-heading" id="contactMeDetails">
     </h2>
     <div class="boxes">
-      <div>
-        <span class="text-secondary">Email: </span> kennethreyt@gmail.com
-      </div>
-      <div><span class="text-secondary">Phone: </span> +63 966 356 8932</div>
-      <div>
-        <span class="text-secondary">Address: </span> 46C Salvador Ext. Brgy. Labangon, Cebu
-        City, 6000
-      </div>
+      <div id="email"></div>
+      <div id="phone"></div>
+      <div id="address"></div>
     </div>
   </main>
 
   <footer id="main-footer">
-    Copyright &copy; 2020
+    <ul id="language">
+      <li id="lang-en">
+        English
+      </li>
+      <li id="lang-jp">
+        日本語
+      </li>
+    </ul>
   </footer>
 
+  <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/language.js"></script>
 </body>
 
 </html>
