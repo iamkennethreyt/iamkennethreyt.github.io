@@ -27,7 +27,7 @@ const outputTxt = {
         links: "Links:",
         home: "Home",
         about: "About Me",
-        myWorks: "My Works",
+        work: "My Works",
         contact: "How to reach me",
         download: "Download my Resume",
         titleIndex: "Welcome To My Portfolio | Kenneth Rey Tamis",
@@ -63,7 +63,7 @@ const outputTxt = {
         links: "リンク:",
         home: "ホームページ",
         about: "私について",
-        myWorks: "私のプロジェクト",
+        work: "私のプロジェクト",
         contact: "連絡方法",
         download: "履歴書をダウンロード",
         titleIndex: "私のポートフォリオへようこそ | ケネス・レイ・タミス",
@@ -121,9 +121,9 @@ $("#home").text(txt.home);
 $("#about").text(txt.about);
 $("#contact").text(txt.contact);
 $("#download").text(txt.download);
-$("#myWorks").text(txt.myWorks);
+$("#work").text(txt.work);
 
-$("#titleIndex").text(txt.myWorks);
+$("#titleIndex").text(txt.titleIndex);
 $("#titleAbout").text(txt.titleAbout);
 $("#titleContact").text(txt.titleContact);
 $("#titleWork").text(txt.titleWork);
