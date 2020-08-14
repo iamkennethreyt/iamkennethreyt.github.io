@@ -28,7 +28,11 @@ const outputTxt = {
         about: "About Me",
         myWorks: "My Works",
         contact: "How to reach me",
-        download: "Download my Resume"
+        download: "Download my Resume",
+        titleIndex: "Welcome To My Portfolio | Kenneth Rey Tamis",
+        titleAbout: "About Me | Kenneth Rey Tamis",
+        titleContact: "Contact Me | Kenneth Rey Tamis",
+        titleWork: "My Works | Kenneth Rey Tamis"
     },
     japanese: {
         name: "ケネス・レイ・<span class='text-secondary'>タミス</span>",
@@ -59,7 +63,11 @@ const outputTxt = {
         about: "私について",
         myWorks: "私のプロジェクト",
         contact: "連絡方法",
-        download: "履歴書をダウンロード"
+        download: "履歴書をダウンロード",
+        titleIndex: "私のポートフォリオへようこそ | ケネス・レイ・タミス",
+        titleAbout: "私について | ケネス・レイ・タミス",
+        titleContact: "連絡先の詳細 | ケネス・レイ・タミス",
+        titleWork: "私のプロジェクト | ケネス・レイ・タミス"
     }
 }
 
