@@ -120,5 +120,10 @@ $("#contact").text(txt.contact);
 $("#download").text(txt.download);
 $("#myWorks").text(txt.myWorks);
 
+$("#titleIndex").text(txt.myWorks);
+$("#titleAbout").text(txt.titleAbout);
+$("#titleContact").text(txt.titleContact);
+$("#titleWork").text(txt.titleWork);
+
 
 
